@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            font-size: 10px;
+        }
+
+        .logo-container{
+            display: flex;
+            gap: 1.4125rem;
+        }
+
+        .logo-container__icon{
+            height: 6rem;
+            width: 6rem;
+            background-image: linear-gradient(to bottom right,#4c4cf3, #000, #6fdb6f);
+            position: relative;
+            border-radius: 1.5rem;
+        }
+
+        .icon-primary{
+            color: #ffffff;
+            position: absolute;
+            top: 15%;
+            left: 22%;
+            font-size: 2rem;
+        }
+
+        
+        .icon-secondary{
+            color: #ffffff;
+            position: absolute;
+            bottom: 15%;
+            right: 22%;
+            font-size: 2rem;
+        }
+
+        .logo-container__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.18rem;
+        }
+
+        .logo-text__primary{
+            font-size: 2rem;
+            color: #6fdb6f;
+        }
+
+        .logo-text__secondary{
+            font-size: 2rem;
+            color: #4c4cf3;
+            border-top: 0.1rem solid #000;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <div class="logo-container__icon">
+            <span class="icon-primary">Z</span>
+            <span class="icon-secondary">S</span>
+        </div>
+
+        <div class="logo-container__text">
+            <span class="logo-text__primary">
+                ZARTAJ
+            </span>
+            <span class="logo-text__secondary">
+                Solutions
+            </span>
+        </div>
+    </div>
+</body>
+</html>
